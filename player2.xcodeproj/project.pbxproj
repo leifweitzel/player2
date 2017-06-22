@@ -12,6 +12,12 @@
 		29C056241EFA80EB00D3F2D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C056221EFA80EB00D3F2D2 /* Main.storyboard */; };
 		29C056261EFA80EB00D3F2D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29C056251EFA80EB00D3F2D2 /* Assets.xcassets */; };
 		29C056291EFA80EB00D3F2D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C056271EFA80EB00D3F2D2 /* LaunchScreen.storyboard */; };
+		29C056331EFA810100D3F2D2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C056311EFA810100D3F2D2 /* AVFoundation.framework */; };
+		29C056341EFA810100D3F2D2 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C056321EFA810100D3F2D2 /* AVKit.framework */; };
+		29C056381EFAA79F00D3F2D2 /* Song0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29C056371EFAA79F00D3F2D2 /* Song0.mp3 */; };
+		29C0563A1EFAAA8800D3F2D2 /* dcfy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29C056391EFAAA8800D3F2D2 /* dcfy.jpg */; };
+		29C0563C1EFAAEEF00D3F2D2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C0563B1EFAAEEF00D3F2D2 /* MapKit.framework */; };
+		29C0563E1EFBC34D00D3F2D2 /* Song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29C0563D1EFBC34D00D3F2D2 /* Song1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		29C056251EFA80EB00D3F2D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29C056281EFA80EB00D3F2D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29C0562A1EFA80EB00D3F2D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29C056311EFA810100D3F2D2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		29C056321EFA810100D3F2D2 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		29C056371EFAA79F00D3F2D2 /* Song0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Song0.mp3; sourceTree = "<group>"; };
+		29C056391EFAAA8800D3F2D2 /* dcfy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dcfy.jpg; sourceTree = "<group>"; };
+		29C0563B1EFAAEEF00D3F2D2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		29C0563D1EFBC34D00D3F2D2 /* Song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Song1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29C056331EFA810100D3F2D2 /* AVFoundation.framework in Frameworks */,
+				29C0563C1EFAAEEF00D3F2D2 /* MapKit.framework in Frameworks */,
+				29C056341EFA810100D3F2D2 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,7 @@
 			children = (
 				29C0561D1EFA80EB00D3F2D2 /* player2 */,
 				29C0561C1EFA80EB00D3F2D2 /* Products */,
+				29C056301EFA810000D3F2D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +76,21 @@
 				29C056251EFA80EB00D3F2D2 /* Assets.xcassets */,
 				29C056271EFA80EB00D3F2D2 /* LaunchScreen.storyboard */,
 				29C0562A1EFA80EB00D3F2D2 /* Info.plist */,
+				29C056371EFAA79F00D3F2D2 /* Song0.mp3 */,
+				29C0563D1EFBC34D00D3F2D2 /* Song1.mp3 */,
+				29C056391EFAAA8800D3F2D2 /* dcfy.jpg */,
 			);
 			path = player2;
+			sourceTree = "<group>";
+		};
+		29C056301EFA810000D3F2D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29C0563B1EFAAEEF00D3F2D2 /* MapKit.framework */,
+				29C056311EFA810100D3F2D2 /* AVFoundation.framework */,
+				29C056321EFA810100D3F2D2 /* AVKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +125,13 @@
 				TargetAttributes = {
 					29C0561A1EFA80EB00D3F2D2 = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 29Y3RNA7L3;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -124,7 +159,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				29C056291EFA80EB00D3F2D2 /* LaunchScreen.storyboard in Resources */,
+				29C0563A1EFAAA8800D3F2D2 /* dcfy.jpg in Resources */,
 				29C056261EFA80EB00D3F2D2 /* Assets.xcassets in Resources */,
+				29C056381EFAA79F00D3F2D2 /* Song0.mp3 in Resources */,
+				29C0563E1EFBC34D00D3F2D2 /* Song1.mp3 in Resources */,
 				29C056241EFA80EB00D3F2D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +300,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29Y3RNA7L3;
 				INFOPLIST_FILE = player2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.player2;
@@ -274,6 +313,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29Y3RNA7L3;
 				INFOPLIST_FILE = player2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.player2;
