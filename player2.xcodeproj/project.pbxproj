@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29110206202B1C6100082184 /* font-3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29110205202B1C6000082184 /* font-3.ttf */; };
+		29110209202B1C7900082184 /* font-5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29110207202B1C7700082184 /* font-5.ttf */; };
+		2911020A202B1C7900082184 /* font-4.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29110208202B1C7800082184 /* font-4.ttf */; };
+		29110216202B346800082184 /* buttontest.png in Resources */ = {isa = PBXBuildFile; fileRef = 29110215202B346700082184 /* buttontest.png */; };
+		29110218202B469C00082184 /* icons8-synchronize-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 29110217202B469B00082184 /* icons8-synchronize-48.png */; };
 		293EFAD51FB60525005D65A7 /* TOUR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 293EFAD41FB60524005D65A7 /* TOUR.jpg */; };
 		293EFAD71FB608E9005D65A7 /* infobutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 293EFAD61FB608E7005D65A7 /* infobutton.png */; };
 		29569BEF2029EE740010D51C /* united-states.png in Resources */ = {isa = PBXBuildFile; fileRef = 29569BEE2029EE730010D51C /* united-states.png */; };
@@ -57,6 +62,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29110205202B1C6000082184 /* font-3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "font-3.ttf"; sourceTree = "<group>"; };
+		29110207202B1C7700082184 /* font-5.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "font-5.ttf"; sourceTree = "<group>"; };
+		29110208202B1C7800082184 /* font-4.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "font-4.ttf"; sourceTree = "<group>"; };
+		29110215202B346700082184 /* buttontest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttontest.png; sourceTree = "<group>"; };
+		29110217202B469B00082184 /* icons8-synchronize-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-synchronize-48.png"; sourceTree = "<group>"; };
 		293EFAD41FB60524005D65A7 /* TOUR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TOUR.jpg; sourceTree = "<group>"; };
 		293EFAD61FB608E7005D65A7 /* infobutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infobutton.png; sourceTree = "<group>"; };
 		29569BEE2029EE730010D51C /* united-states.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "united-states.png"; sourceTree = "<group>"; };
@@ -195,6 +205,11 @@
 				29D7662320277DD70087E1BD /* font-6.ttf */,
 				29569BEE2029EE730010D51C /* united-states.png */,
 				29569BF02029EE790010D51C /* germany.png */,
+				29110205202B1C6000082184 /* font-3.ttf */,
+				29110208202B1C7800082184 /* font-4.ttf */,
+				29110207202B1C7700082184 /* font-5.ttf */,
+				29110215202B346700082184 /* buttontest.png */,
+				29110217202B469B00082184 /* icons8-synchronize-48.png */,
 			);
 			path = player2;
 			sourceTree = "<group>";
@@ -290,6 +305,7 @@
 				29A51F0A1EFC0F61002345E7 /* Icon-App-60x60@2x.png in Resources */,
 				29A51F051EFC0F61002345E7 /* Icon-App-40x40@2x.png in Resources */,
 				29A51F091EFC0F61002345E7 /* Icon-App-60x60@1x.png in Resources */,
+				29110218202B469C00082184 /* icons8-synchronize-48.png in Resources */,
 				29569BEF2029EE740010D51C /* united-states.png in Resources */,
 				29A51F031EFC0F61002345E7 /* Icon-App-29x29@3x.png in Resources */,
 				29A51F0E1EFC0F61002345E7 /* Icon-App-76x76@1x.png in Resources */,
@@ -298,10 +314,13 @@
 				29A51F101EFC0F61002345E7 /* Icon-App-76x76@3x.png in Resources */,
 				29A51EE41EFC075E002345E7 /* logo.jpg in Resources */,
 				29A51EFD1EFC0F61002345E7 /* Contents.json in Resources */,
+				29110216202B346800082184 /* buttontest.png in Resources */,
 				29A51F131EFC0F61002345E7 /* Icon-Small-50x50@2x.png in Resources */,
 				29A51F011EFC0F61002345E7 /* Icon-App-29x29@1x.png in Resources */,
+				29110206202B1C6100082184 /* font-3.ttf in Resources */,
 				29C056381EFAA79F00D3F2D2 /* Song2.mp3 in Resources */,
 				29A51F0D1EFC0F61002345E7 /* Icon-App-72x72@2x.png in Resources */,
+				2911020A202B1C7900082184 /* font-4.ttf in Resources */,
 				29A51F001EFC0F61002345E7 /* Icon-App-20x20@3x.png in Resources */,
 				293EFAD51FB60525005D65A7 /* TOUR.jpg in Resources */,
 				29A51F0C1EFC0F61002345E7 /* Icon-App-72x72@1x.png in Resources */,
@@ -314,6 +333,7 @@
 				29A51F071EFC0F61002345E7 /* Icon-App-57x57@1x.png in Resources */,
 				29A51EFE1EFC0F61002345E7 /* Icon-App-20x20@1x.png in Resources */,
 				29A51EE21EFC075E002345E7 /* bg__no_logo.jpg in Resources */,
+				29110209202B1C7900082184 /* font-5.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
